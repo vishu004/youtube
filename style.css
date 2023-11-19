@@ -1,0 +1,268 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+/* nav{
+    display: flex;
+} */
+header{
+    position: fixed;
+}
+.smallcontainer{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.menucontainer img{
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+.logocontainer img{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.logocontainer span{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+.logocontainer span sup{
+    font-size: 0.6rem;
+    padding-left: 3px;
+}
+.searchandmiccontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 14%;
+}
+.searchcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchcontainer input{
+    color: white;
+    padding: 10px 12px;
+    border-radius: 22px;
+    width: 30rem;
+    font-size: 0.9rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 0.5px solid gray;
+}
+.searchcontainer img{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(45, 41, 41);
+    border: 0.5px solid gray;
+    padding: 9px 20px;
+    border-radius: 22px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+    /* border-image: 20rem; */
+}
+.miccontainer img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: rgb(26, 24, 24);
+    padding: 10px 12px;
+    border-radius: 25px;
+    margin-left: 13px;
+}
+.miccontainer img:hover{
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+}
+.camnotacccontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+}
+.camnotacccontainer img{
+    margin: 0pc 10px;
+}
+.camnotacccontainer img[src="icons8-camera-automation-24.png"]{
+    cursor: pointer;
+}
+.camnotacccontainer img[src="bell.png"]{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.camnotacccontainer img[src="tusharimg.jpg"]{
+    width: 33px;
+    height: 33px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.videocontainer .iframecontainer1 iframe{
+    box-shadow: 0px 0px 13px -5px white;
+    border-radius: 8px;
+}
+.iframecontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 97%;
+}
+.span12container{
+    display: grid;
+}
+.iframecontainer1 .span3{
+    margin-top: 10px;
+}
+.videocontainer .iframecontent img{
+    width: 38px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+.iframecontainer1 .span1, .span2{
+    font-size: 0.75rem;
+    color: #7f7f7f;
+    font-weight: bold;
+    line-height: 1.1rem;
+}
+.iframecontainer1 .span2{
+    font-size: 0.7rem;
+}
+.iframecontent button{
+    background-color: white;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 21px;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.concontainer{
+    display: flex;
+}
+.videosharcontainer{
+    display: flex;
+    width: 51%;
+}
+.videosharcontainer button{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    /* font-weight: bold; */
+    padding: 8px 12px;
+    border-radius: 21px;
+    border: 1px solid rgb(44, 43, 43);
+    margin-left: 20px;
+}
+.videosharcontainer .don{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videosharcontainer .don img{
+    background: none;
+    border-radius: 0px;
+    width: 19px;
+}
+.videosharcontainer .don1 img{
+    background: none;
+    width: 19px;
+    margin: 0;
+}
+.trainingcontainer .suggestionvideocontainer .contentcontainer{
+    display: flex;
+    margin-left: 16px;
+    overflow: scroll;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.alls, .lyrics, .mantras, .recently, .related, .watched{
+    padding: 8px 12px;
+    border-radius: 11px;
+    background-color: rgb(29, 27, 27);
+    border: 1px solid rgb(29, 27, 27);
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+    height: fit-content;
+    min-width: fit-content;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.contentcontainer span{
+    background: none;
+}
+.lyrics:hover, .mantras:hover, .recently:hover, .related:hover, .watched:hover{
+    background-color: rgb(47, 47, 47);
+    border: 1px solid rgb(47, 47, 47);
+}
+.alls{
+    background-color: white;
+}
+.alls span{
+    color: black;
+}
+.trainingcontainer .videocontainer{
+    display: grid;
+    margin: 10px 20px;
+}
+.videologocontainer{
+    display: flex;
+    align-items: center;
+}
+  .video1container{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .video1container span{
+    font-size: 0.8rem;
+  }
+  .video1container .smallcontentcontainer{
+    display: grid;
+    margin-left: 15px;
+    width: 43%;
+    height: fit-content;
+    line-height: 1.1rem;
+  }
+.video1container .smallcontentcontainer .span1, .span2{
+    font-size: 0.6rem;
+    color: #7f7f7f;
+    font-weight: bold;
+    /* margin-left: 46px; */
+}
+.trainingcontainer{
+    display: flex;
+}
+.smallvideocontainer{
+    margin-left: 16px;
+}
+.smallvideocontainer .video1container iframe{
+    border-radius: 8px;
+    box-shadow: 0px 0px 13px -5px white;
+}
+.commentcontainer{
+    width: 93%;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    padding: 15px;
+    line-height: 1.2rem;
+    font-size: 0.75rem;
+}
